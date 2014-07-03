@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.jpgautomation.ilost" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>You Lost</name>
+    <description>
+        An app to assist users in playing The Game.
+    </description>
+    <author email="joshua.graham@jpgautomation.com" href="http://jpgautomation.com">
+        Joshua Graham
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="Fullscreen" value="true" />
+    <platform name="android">
+        <preference name="DisallowOverscroll" value="true"/>
+    </platform>
+    <platform name="ios">
+        <preference name="DisallowOverscroll" value="true"/>
+    </platform>
+</widget>
